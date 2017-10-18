@@ -55,11 +55,38 @@ For more such applications & Help:-
 Database   : test  
 Table 	   : users  
 Table Data :   
-First_Name	Last_Name	  Mobile	Username 				Password  
-  
-  Mohan		 Shinde		7896541230	 mohan 		e9206237def4b4ef46fd933ed0f5a08f  
-  Suraj 	Mundalik 	9876543210	 suraj 		4dd49f4f84e4d6945e3bc6d14812004e  
- Tushar		Jachak 		8796541230 	 tushar 	df7c905d9ffebe7cda405cf1c82a3add  
+<table border=1>  
+	<thead>  
+		<th>First_Name</th>  
+		<th>Last_Name</th>  
+		<th>Mobile</th>  
+		<th>Username</th>  
+		<th>Password</th>  
+	</thead>  
+	<tbody>  
+		<tr>  
+			<td>Mohan</td>  
+			<td>Shinde</td>  
+			<td>7896541230</td>  
+			<td>mohan</td>  
+			<td>e9206237def4b4ef46fd933ed0f5a08f</td>  
+		</tr>  
+		<tr>  
+			<td>Suraj</td>  
+			<td>Mundalik</td>  
+			<td>9876543210</td>  
+			<td>suraj</td>  
+			<td>4dd49f4f84e4d6945e3bc6d14812004e</td>  
+		</tr>  
+		<tr>  
+			<td>Tushar</td>  
+			<td>Jachak</td>  
+			<td>8796541230</td>  
+			<td>tushar</td>  
+			<td>df7c905d9ffebe7cda405cf1c82a3add</td>  
+		</tr>  
+	</tbody>  
+</table>      
 
 <b><h3>Authenticate User Credentials</h3></b>  
 ```  
