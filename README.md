@@ -40,7 +40,7 @@ For more such applications & Help:-
    $auth_data = array(	"Username" => "suraj",  
 						"Password" => "suraj",  
 						"PASSWORD_ENCRYPTED" => "md5"  
-			     	  );
+			     	  );  
    Where,  
    "Username" is the Column Name "suraj" is the value to be verified,  
    "Password" is the Column Name "suraj" is the value to be verified,  
