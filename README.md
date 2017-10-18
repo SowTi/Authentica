@@ -55,7 +55,7 @@ For more such applications & Help:-
 Database   : test  
 Table 	   : users  
 Table Data :   
-<table border=1>  
+<table>  
 	<thead>  
 		<th>First_Name</th>  
 		<th>Last_Name</th>  
