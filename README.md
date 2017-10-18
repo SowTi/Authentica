@@ -94,10 +94,10 @@ Table 	   : users
 	require('authentica.php');  
 	$con = @mysql_connect("localhost", "root", "");  
 	$auth = new Authentica($con, "test", "users");  
-	$auth_data = array(	"Username" => "suraj",  
-						"Password" => "suraj",  
-						"PASSWORD_ENCRYPTED" => "md5"  
-			     	  );  
+	$auth_data = array( "Username" => "suraj",  
+			    "Password" => "suraj",  
+			    "PASSWORD_ENCRYPTED" => "md5"  
+			  );  
 	$login_data = $auth->Authenticate($auth_data);  
 	if(empty($login_data)){  
 		echo "Login Failed.";  
@@ -118,10 +118,10 @@ Login Successful.
 	require('authentica.php');  
 	$con = @mysql_connect("localhost", "root", "");  
 	$auth = new Authentica($con, "test", "users");  
-	$auth_data = array(	"Username" => "suraj",  
-						"Password" => "suraj",  
-						"PASSWORD_ENCRYPTED" => "md5"  
-			     	  );  
+	$auth_data = array( "Username" => "suraj",  
+			    "Password" => "suraj",  
+			    "PASSWORD_ENCRYPTED" => "md5"  
+			  );  
 	$login_data = $auth->Authenticate($auth_data);    
 	if(empty($login_data)){  
 		echo "Login Failed";  
@@ -152,10 +152,10 @@ Password = 4dd49f4f84e4d6945e3bc6d14812004e
 	require('authentica.php');  
 	$con = @mysql_connect("localhost", "root", "");  
 	$auth = new Authentica($con, "test", "users");  
-	$auth_data = array("Username" => "spiderman",  
-					"Password" => "marvels",  
-					"PASSWORD_ENCRYPTED" => "md5"  
-			       );  
+	$auth_data = array( "Username" => "spiderman",  
+			    "Password" => "marvels",  
+			    "PASSWORD_ENCRYPTED" => "md5"  
+			  );  
 	$login_data = $auth->Authenticate($auth_data);  
 	if($auth->getAuthenticationStatus()){  
 		echo "Login Successful.";  
